@@ -6,7 +6,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: `Hi! I'm the Headstarter support assistant. How can I help you today?`,
+      content: `Hi! I'm the TechWise support assistant. How can I help you today?`,
     },
   ])
   const [message, setMessage] = useState('')
@@ -82,7 +82,7 @@ export default function Home() {
     >
       
     <Typography fontSize={"40px"} gutterBottom>
-      Headstarter Customer Support AI
+      TechWise Customer Support AI
     </Typography>
 
       <Stack
